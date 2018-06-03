@@ -15,7 +15,7 @@
 
 - (void) patientFeelsBad:(Patient*) currPatient {
     
-    NSLog(@"Patient %@ feels bad", currPatient.name);
+    NSLog(@"Patient  %@ feels bad", currPatient.name);
     
     if (currPatient.temperatute > 37 && currPatient.temperatute < 40.f) {
         [currPatient takePill];
